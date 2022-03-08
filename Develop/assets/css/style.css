@@ -75,6 +75,9 @@ p {
     margin-left: 20px;
 }
 
+
+/* Change class selector ".benefits" to tag selector "aside" to match html */
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,6 +88,9 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
+
+/* Change class selector to .benefits and consolidate */
 
 .benefit-lead {
     margin-bottom: 32px;
@@ -101,6 +107,9 @@ p {
     color: #ffffff;
 }
 
+
+/* Change class selector to .benefits h3 and consolidate*/
+
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -115,6 +124,9 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+
+
+/* Change class selector to .benefits img and consolidate */
 
 .benefit-lead img {
     display: block;
@@ -133,6 +145,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+
+/* Change to tag selector aside and consolidate */
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -161,6 +176,9 @@ p {
     color: #ffffff;
 }
 
+
+/* Change to tag selector aside img and consolidate  */
+
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -172,6 +190,9 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
+
+
+/* Change to tag selector aside h2 and consolidate */
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
@@ -187,6 +208,9 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+
+/* Change class selector ".footer" to tag selector "footer" to link to html properly */
 
 .footer {
     padding: 30px;
