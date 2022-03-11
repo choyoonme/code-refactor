@@ -8,6 +8,9 @@ body {
     background-color: #d9dcd6;
 }
 
+
+/* TODO: change class selector to tag selector for header */
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -25,7 +28,7 @@ header h1 .seo {
 }
 
 
-/* TODO: replace div with nav */
+/* TODO: replace tag selector div with nav */
 
 header nav {
     padding-top: 15px;
@@ -35,18 +38,6 @@ header nav {
     font-size: 20px;
 }
 
-
-/* TODO: replace div with nav */
-
-header nav ul {
-    list-style-type: none;
-}
-
-header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
 a {
     color: #ffffff;
     text-decoration: none;
@@ -54,6 +45,18 @@ a {
 
 p {
     font-size: 16px;
+}
+
+
+/* TODO: change tag selector to class selector rather than having "header div ul" or "header div ul li*/
+
+.links {
+    list-style-type: none;
+}
+
+.link {
+    display: inline-block;
+    margin-left: 25px;
 }
 
 .hero {
@@ -76,7 +79,7 @@ p {
 }
 
 
-/* TODO: change selector to main */
+/* TODO: change class selector to tag selector main */
 
 main {
     width: 75%;
@@ -85,82 +88,7 @@ main {
 }
 
 
-/* TODO: Change class selector ".benefits" to tag selector "aside" to match html */
-
-aside {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-
-/* TODO: Change class selector to aside .benefits and consolidate */
-
-aside .benefits {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-
-/* .benefits {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefits {
-    margin-bottom: 32px;
-    color: #ffffff;
-} */
-
-
-/* TODO: Change class selector to aside .benefits h3 and consolidate*/
-
-aside .benefits h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-
-/* .benefits h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefits h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
-
-
-/* Change class selector to aside .benefits img and consolidate */
-
-aside .benefits img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-
-/* 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
-
-
-/* Change to tag selector main and consolidate */
+/* Change to tag selector main .benefits, main .benefits h2, and main .benefits img, consolidate and comment out others*/
 
 main .benefits {
     margin-bottom: 20px;
@@ -190,9 +118,6 @@ main .benefits {
     color: #ffffff;
 } */
 
-
-/* Change to tag selector main img and consolidate  */
-
 main img {
     max-height: 200px;
 }
@@ -205,9 +130,6 @@ main img {
 .social-media-marketing img {
     max-height: 200px;
 } */
-
-
-/* Change to tag selector main h2 and consolidate */
 
 main .benefits h2 {
     margin-bottom: 20px;
@@ -223,6 +145,75 @@ main .benefits h2 {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
+} */
+
+
+/* TODO: Change class selector ".benefits" to tag selector "aside" to match html */
+
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+
+/* TODO: Change class selector to aside .benefits, aside .benefits h3, and aside .benefits img, consolidate rules and comment out others */
+
+aside .benefits {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+
+/* .benefits {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefits {
+    margin-bottom: 32px;
+    color: #ffffff;
+} */
+
+aside .benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/* .benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+} */
+
+aside .benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+/* 
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 } */
 
 
